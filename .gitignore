@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Any Copyright Libs
+lib/*/docs
+lib/*/examples
+lib/*/tests
+
+# IDE/Build files
+.idea/
+.fleet/
+.cache/jb
+
+build/
+cmake-build-debug/
+CMakeFiles/
+CMake/
+images/
+Testing/
+
+# cmake and make jazz
+CMakeCache.txt
+cmake_install*
+cmake_uninstall*
+compile_commands.json
+Makefile
+.cmake/
+
+CMakeLists.txt.user
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps
